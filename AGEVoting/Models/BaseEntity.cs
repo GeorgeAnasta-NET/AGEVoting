@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace AGEVoting.Models {
-    public class StandardModel {
+    public class BaseEntity {
         public DateTime Created { get; set; }
         public long CreatedBy { get; set; }
 
